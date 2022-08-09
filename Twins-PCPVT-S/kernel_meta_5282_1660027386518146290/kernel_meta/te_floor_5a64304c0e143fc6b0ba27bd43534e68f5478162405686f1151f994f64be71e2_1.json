@@ -1,0 +1,15 @@
+{
+    "KBHit":false,
+    "batchBindOnly":1,
+    "binFileName":"te_floor_5a64304c0e143fc6b0ba27bd43534e68f5478162405686f1151f994f64be71e2_1",
+    "binFileSuffix":".o",
+    "blockDim":1,
+    "kernelName":"te_floor_5a64304c0e143fc6b0ba27bd43534e68f5478162405686f1151f994f64be71e2_1__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0
+    ],
+    "sha256":"9b7466d0542a6d622c2c18326415fb8e5af1ae88713ead42f5f03f38dfa963d8"
+}

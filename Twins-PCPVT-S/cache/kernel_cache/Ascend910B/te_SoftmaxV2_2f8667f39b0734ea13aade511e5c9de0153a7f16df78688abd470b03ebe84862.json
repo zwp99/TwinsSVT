@@ -1,0 +1,13 @@
+{
+    "binFileName": "te_SoftmaxV2_2f8667f39b0734ea13aade511e5c9de0153a7f16df78688abd470b03ebe84862",
+    "binFileSuffix": ".o",
+    "blockDim": 30,
+    "kernelName": "te_softmaxv2_ba64e40e8eedd57924335e1b03510c9fb0bc35631680dc717d092fcef460cc29_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize": 0,
+    "parameters": [
+        0,
+        0
+    ],
+    "sha256": "6842323bd82924a5f98b532f03219a29440c09b1d89863c8e3d1a83ca8c17f2e"
+}

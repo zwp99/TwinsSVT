@@ -1,0 +1,15 @@
+{
+    "KBHit": false,
+    "binFileName": "te_BatchMatMul_d879e1b85f0c3337490ad7debbb7f32e13acd8b05074909d3d669d8278a16d85",
+    "binFileSuffix": ".o",
+    "blockDim": 30,
+    "kernelName": "te_batchmatmul_73094092e62bb99ef83fe9c3cfcc4ebdd7e9ede3b27b7197e05eefa3281fd78a_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize": 0,
+    "parameters": [
+        0,
+        0,
+        0
+    ],
+    "sha256": "bd722de8727b68c8150efb4e9646e390104e59ab90817b6c8675b5886207dca7"
+}

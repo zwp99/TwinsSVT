@@ -1,0 +1,17 @@
+{
+    "binFileName": "te_LayerNorm_782fe2675ad47c64fbd34cc0d03667352026da51f7dc0281e215fc105ebd3027",
+    "binFileSuffix": ".o",
+    "blockDim": 30,
+    "kernelName": "te_layernorm_71dbdfc5b7e0a930449be2ddb737bd3df4ab09ef36f7d1869d38ab3f3bd4bbea_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize": 0,
+    "parameters": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+    ],
+    "sha256": "97ee23335e14be23a5e690c805102c474511881cfb7bd1ddb3652435f2823438"
+}

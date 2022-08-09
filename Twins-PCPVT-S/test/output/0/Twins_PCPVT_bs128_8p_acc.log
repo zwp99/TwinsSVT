@@ -1,0 +1,10 @@
+Network = Twins_PCPVT
+RankSize = 8
+BatchSize = 128
+DeviceType = aarch64
+CaseName = Twins_PCPVT_bs128_8p_acc
+ActualFPS = 
+TrainingTime = 
+TrainAccuracy = 
+ActualLoss = 
+E2ETrainingTime = 1179

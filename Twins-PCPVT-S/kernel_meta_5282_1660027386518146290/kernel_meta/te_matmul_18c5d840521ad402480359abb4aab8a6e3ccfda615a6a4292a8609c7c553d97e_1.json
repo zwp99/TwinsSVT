@@ -1,0 +1,15 @@
+{
+    "KBHit":false,
+    "binFileName":"te_matmul_18c5d840521ad402480359abb4aab8a6e3ccfda615a6a4292a8609c7c553d97e_1",
+    "binFileSuffix":".o",
+    "blockDim":30,
+    "kernelName":"te_matmul_18c5d840521ad402480359abb4aab8a6e3ccfda615a6a4292a8609c7c553d97e_1__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0,
+        0
+    ],
+    "sha256":"305afc202fe8d01de3669dde2f446e775d9409db5eb6f785f1027903e5700b3d"
+}

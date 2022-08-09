@@ -1,0 +1,62 @@
+successfully import amp
+number of devices available: 8
+args.gpu:0
+environment info: [0, 1, 0]
+| distributed init (rank 0): env://
+is master:True
+Namespace(aa='rand-m9-mstd0.5-inc1', batch_size=128, clip_grad=5, color_jitter=0.4, cooldown_epochs=10, cutmix=1.0, cutmix_minmax=None, data_path='/opt/npu/imagenet', data_set='IMNET', decay_epochs=30, decay_rate=0.1, device='npu', dist_backend='hccl', dist_eval=True, dist_url='env://', distributed=True, drop=0.0, drop_path=0.3, epochs=2, eval=False, finetune='', gpu=0, inat_category='name', input_size=224, lr=0.001, lr_noise=None, lr_noise_pct=0.67, lr_noise_std=1.0, max_step='1000', min_lr=1e-05, mixup=0.8, mixup_mode='batch', mixup_prob=1.0, mixup_switch_prob=0.5, model='alt_gvt_base', momentum=0.9, num_workers=10, opt='npufusedadamw', opt_betas=None, opt_eps=1e-08, output_dir='', patience_epochs=10, pin_mem=True, rank=0, recount=1, remode='pixel', repeated_aug=False, reprob=0.25, resplit=False, resume='', sched='cosine', seed=0, smoothing=0.1, start_epoch=0, throughout=False, train_interpolation='bicubic', use_mcloader=False, warmup_epochs=5, warmup_lr=1e-06, weight_decay=0.05, world_size=1)
+using device: npu
+device after: 0
+rank 0 is using DistributedSampler with 1 tasks
+Creating model: alt_gvt_base
+using npu fusedadamw...
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+combine_grad           : None
+combine_ddp            : None
+ddp_replica_count      : 4
+check_combined_tensors : None
+user_cast_preferred    : None
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+combine_grad           : True
+combine_ddp            : None
+ddp_replica_count      : 4
+check_combined_tensors : None
+user_cast_preferred    : None
+Use npu fused optimizer
+using torch parallel
+number of params: 56070952
+Start training for 2 epochs
+number of world size:1
+worker info:None
+batch size: 128
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  AllReduce error in:/usr1/workspace/FPTA_Daily_open/CODE/pytorch/torch/lib/c10d/ProcessGroupHCCL.cpp: 117
+Traceback (most recent call last):
+  File "/root/archiconda3/envs/svt/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/root/archiconda3/envs/svt/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/root/archiconda3/envs/svt/lib/python3.7/site-packages/torch/distributed/launch.py", line 263, in <module>
+    main()
+  File "/root/archiconda3/envs/svt/lib/python3.7/site-packages/torch/distributed/launch.py", line 259, in main
+    cmd=cmd)
+subprocess.CalledProcessError: Command '['/root/archiconda3/envs/svt/bin/python3.7', '-u', 'main.py', '--model', 'alt_gvt_base', '--device', 'npu', '--batch-size', '128', '--data-path', '/opt/npu/imagenet', '--dist-eval', '--drop-path', '0.3', '--epochs', '2', '--max_step', '1000']' died with <Signals.SIGABRT: 6>.
+/root/archiconda3/envs/svt/lib/python3.7/multiprocessing/semaphore_tracker.py:144: UserWarning: semaphore_tracker: There appear to be 91 leaked semaphores to clean up at shutdown
+  len(cache))

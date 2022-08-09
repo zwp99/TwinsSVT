@@ -1,0 +1,13 @@
+{
+    "binFileName": "te_AtomicAddrClean_75810b04c489303bb6e602d5555aecc32515b682b109c5980fd30cc66b4b658c",
+    "binFileSuffix": ".o",
+    "blockDim": 26,
+    "kernelName": "te_atomicaddrclean_7d91bde787127048827ebe4b0541b1b3c296a1892cfa9e750dc066d67ed0aedc_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize": 0,
+    "parameters": [
+        0,
+        0
+    ],
+    "sha256": "b7d4e5842e7dc1c3133693b38112c995bf9d790ab0fa78e5bed0cba7089ab741"
+}

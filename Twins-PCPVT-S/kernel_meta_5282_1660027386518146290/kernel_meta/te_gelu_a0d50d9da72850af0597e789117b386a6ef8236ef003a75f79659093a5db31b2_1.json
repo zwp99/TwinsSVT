@@ -1,0 +1,15 @@
+{
+    "KBHit":false,
+    "batchBindOnly":1,
+    "binFileName":"te_gelu_a0d50d9da72850af0597e789117b386a6ef8236ef003a75f79659093a5db31b2_1",
+    "binFileSuffix":".o",
+    "blockDim":30,
+    "kernelName":"te_gelu_a0d50d9da72850af0597e789117b386a6ef8236ef003a75f79659093a5db31b2_1__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0
+    ],
+    "sha256":"7e8b8fcc60295fac1cd2f323c587cbfd16660380af3ce15a6bf1dae6ed0b0a86"
+}

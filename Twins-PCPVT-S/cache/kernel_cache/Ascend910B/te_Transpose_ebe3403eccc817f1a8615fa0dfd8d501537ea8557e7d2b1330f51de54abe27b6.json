@@ -1,0 +1,21 @@
+{
+    "binFileName": "te_Transpose_ebe3403eccc817f1a8615fa0dfd8d501537ea8557e7d2b1330f51de54abe27b6",
+    "binFileSuffix": ".o",
+    "blockDim": 30,
+    "kernelName": "te_transpose_1b66ace6fa06769fca84e466f4dd6da4e9d37ad277058a6b8ddd996e9936cb2c_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize": 16384,
+    "parameters": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "sha256": "ed0a358f2004f120e2c318c86537c2331cdeea416dbe47736f212052f4dbee78",
+    "workspace": {
+        "num": 1,
+        "size": [
+            4096
+        ]
+    }
+}

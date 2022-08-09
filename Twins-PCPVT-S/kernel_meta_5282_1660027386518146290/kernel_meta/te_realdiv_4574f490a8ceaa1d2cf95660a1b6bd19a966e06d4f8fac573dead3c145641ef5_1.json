@@ -1,0 +1,16 @@
+{
+    "KBHit":false,
+    "batchBindOnly":1,
+    "binFileName":"te_realdiv_4574f490a8ceaa1d2cf95660a1b6bd19a966e06d4f8fac573dead3c145641ef5_1",
+    "binFileSuffix":".o",
+    "blockDim":30,
+    "kernelName":"te_realdiv_4574f490a8ceaa1d2cf95660a1b6bd19a966e06d4f8fac573dead3c145641ef5_1__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0,
+        0
+    ],
+    "sha256":"3d300ca4fbb0d924f97b45f73d38a2c717fd38e6f4b6216ec15ac48fae4a7a3d"
+}

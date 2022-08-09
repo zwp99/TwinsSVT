@@ -1,0 +1,16 @@
+{
+    "KBHit": false,
+    "batchBindOnly": 1,
+    "binFileName": "te_Add_61e1f8959d94bc7f51c4d11be9d1ec9cc04322a1bcb69e9a5e42ca79137d70e0",
+    "binFileSuffix": ".o",
+    "blockDim": 30,
+    "kernelName": "te_add_bc7cbff675e8fc72a193bdd659c355de850a7879d196ad70689d9c5f10284ab0_1__kernel0",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize": 0,
+    "parameters": [
+        0,
+        0,
+        0
+    ],
+    "sha256": "cb7380fab9f3e0a2a55be49ebdf293db36cdc0df2bdb25da8c6dcd65e000c9a1"
+}
